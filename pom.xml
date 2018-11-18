@@ -31,7 +31,7 @@
        <dependency>
             <groupId>org.mule.runtime</groupId>
             <artifactId>mule-module-spring-config</artifactId>
-            <version>${parent.version}</version>
+            <version>${project.parent.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
