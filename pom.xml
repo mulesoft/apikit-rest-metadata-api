@@ -17,6 +17,7 @@
     <packaging>jar</packaging>
 
     <properties>
+        <licensePath>LICENSE_HEADER.txt</licensePath>
         <formatterConfigPath>formatter.xml</formatterConfigPath>
     </properties>
 
