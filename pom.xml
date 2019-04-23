@@ -13,7 +13,7 @@
     <description>Mule service that allows get APIKit Metadata</description>
     
     <artifactId>mule-apikit-metadata-api</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <properties>
