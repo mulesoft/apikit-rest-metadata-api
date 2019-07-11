@@ -6,13 +6,13 @@
  */
 package org.mule.runtime.apikit.metadata.api;
 
-import org.mule.runtime.config.internal.model.ApplicationModel;
+import org.mule.runtime.ast.api.ArtifactAst;
 
 public interface MetadataBuilder {
 
   MetadataBuilder withResourceLoader(final ResourceLoader resourceLoader);
 
-  MetadataBuilder withApplicationModel(final ApplicationModel applicationModel);
+  MetadataBuilder withApplicationModel(final ArtifactAst applicationModel);
 
   MetadataBuilder withNotifier(final Notifier notifier);
 
