@@ -12,10 +12,11 @@ import org.mule.metadata.api.model.FunctionType;
 public interface Metadata {
 
   /**
-  * Gets the metadata for a Flow
-  * @param flowName Name of the flow
-  * @return The Metadata
-  */
+   * Gets the metadata for a Flow
+   * 
+   * @param flowName Name of the flow
+   * @return The Metadata
+   */
   public Optional<FunctionType> getMetadataForFlow(final String flowName);
 
 }

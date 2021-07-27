@@ -18,8 +18,8 @@ public interface ResourceLoader {
   /**
    * Gets the root API File
    *
-   * @param relativePath Location of the root API file relative to the /mule/resources/api folder or a resource:: in case
-   *                     when the API is defined as a dependency (API sync)
+   * @param relativePath Location of the root API file relative to the /mule/resources/api folder or a resource:: in case when the
+   *        API is defined as a dependency (API sync)
    * @return {@link URI} to the API resource
    */
   URI getResource(String relativePath);
