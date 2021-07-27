@@ -16,8 +16,9 @@ public interface MetadataSource {
 
   /**
    * Generates the input and output metadata
-   * @return A FunctionType that represents the input and output metadata. If
-   * the source has nothing to show, it will return {@link Optional#empty()}
+   * 
+   * @return A FunctionType that represents the input and output metadata. If the source has nothing to show, it will return
+   *         {@link Optional#empty()}
    */
   Optional<FunctionType> getMetadata();
 }
