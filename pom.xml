@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.mule.runtime</groupId>
         <artifactId>mule-modules</artifactId>
-        <version>4.4.0-rc2</version>
+        <version>4.4.0-20210913</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,7 +13,7 @@
     <description>Mule service that allows get APIKit Metadata</description>
     
     <artifactId>mule-apikit-metadata-api</artifactId>
-    <version>2.3.0-rc2</version>
+    <version>2.3.0-20210913</version>
     <packaging>jar</packaging>
 
     <properties>
