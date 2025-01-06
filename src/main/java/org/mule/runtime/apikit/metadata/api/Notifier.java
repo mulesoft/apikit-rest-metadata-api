@@ -27,7 +27,7 @@ public interface Notifier {
 
   /**
    * Level INFO
-   * 
+   * /
    * @param message
    */
   void info(String message);
